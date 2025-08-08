@@ -25,7 +25,14 @@ import { findCheapProd } from './question_30/findCheapProd.js';
 import { findTotalPrice } from './question_31/findTotalPrice.js';
 import { countProductByCategory } from './question_32/countProductByCategory.js';
 import { getProductsByPrice } from './question_33/getProductsByPrice.js';
+import { convertNumToSquare } from './question_34/convertNumToSquare.js';
+import { convertPricesToString } from './question_35/convertPricesToString.js';
+import { sortNumInAscending } from './question_36/sortNumInAscending.js';
+import { sortNumInDescendig } from './question_37/sortNumInDescending.js';
+import { removeFalsyValues } from './question_38/removeFalsyValues.js';
+import { checkEvenNum } from './question_39/checkEvenNum.js';
 import { generateText } from './question_4/generateText.js';
+import { checkNum } from './question_40/checkNum.js';
 import { reverseArray } from './question_5/reverseArray.js';
 import { sumNumInArray } from './question_6/sumNumInArray.js';
 import { findLargestNum } from './question_7/findLargestNum.js';
@@ -163,3 +170,33 @@ console.log(countProductByCategory(products));
 
 //Question 33
 console.log(getProductsByPrice(products));
+
+//Question 34
+const arr34 = [2, 3, 4];
+console.log(convertNumToSquare(arr34));
+
+//Question 35
+const price = [100, 200];
+console.log(convertPricesToString(price));
+
+//Question 36
+const arr36 = [6, 1, 0, 10, 50, 1900, 2];
+console.log(sortNumInAscending(arr36));
+
+//Question 37
+const arr37 = [10, 1, 5, 9, 3];
+console.log(sortNumInDescendig(arr37));
+
+//Question 38
+const arr38 = [0, 1, false, 2, "", 3];
+console.log(removeFalsyValues(arr38));
+
+//Question39
+const arr39 = [2, 8, 0, 10, 20]
+console.log(checkEvenNum(arr39));
+
+//Question40
+const arr40 = [5, 3, 2, 100, 500];
+console.log(checkNum(arr40));
+
+//Question41

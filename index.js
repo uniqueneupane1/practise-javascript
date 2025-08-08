@@ -33,6 +33,11 @@ import { removeFalsyValues } from './question_38/removeFalsyValues.js';
 import { checkEvenNum } from './question_39/checkEvenNum.js';
 import { generateText } from './question_4/generateText.js';
 import { checkNum } from './question_40/checkNum.js';
+import { countEvenAndOddNum } from './question_41/countEvenAndOddNum.js';
+import { findIndexOfNum } from './question_42/findIndexOfNum.js';
+import { findProductByPrice } from './question_43/findProductByPrice.js';
+import { reverseString } from './question_44/reverseString.js';
+import { countVowels } from './question_45/countVowels.js';
 import { reverseArray } from './question_5/reverseArray.js';
 import { sumNumInArray } from './question_6/sumNumInArray.js';
 import { findLargestNum } from './question_7/findLargestNum.js';
@@ -200,3 +205,20 @@ const arr40 = [5, 3, 2, 100, 500];
 console.log(checkNum(arr40));
 
 //Question41
+const arr41 = [2, 3, 4, 5, 6, 10, 20];
+console.log(countEvenAndOddNum(arr41));
+
+//Question42
+const arr42 = [10, 30, 45, 50, 55, 60, 70, 80];
+console.log(findIndexOfNum(arr42));
+
+//Question43
+console.log(findProductByPrice(products));
+
+//Question44
+const str44 = "Unique";
+console.log(reverseString(str44));
+
+//Question45
+const str45 = "Hello World";
+console.log(countVowels(str45));

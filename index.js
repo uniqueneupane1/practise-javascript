@@ -38,7 +38,14 @@ import { findIndexOfNum } from './question_42/findIndexOfNum.js';
 import { findProductByPrice } from './question_43/findProductByPrice.js';
 import { reverseString } from './question_44/reverseString.js';
 import { countVowels } from './question_45/countVowels.js';
+import { checkPalinrome } from './question_46/checkPalindrom.js';
+import { replaceSpaceWithDash } from './question_47/replaceSpaceWithDash.js';
+import { capitalizeFirstLetter } from './question_48/capitalizeFirstLetter.js';
+import { removeNumFromString } from './question_49/removeNumFromString.js';
 import { reverseArray } from './question_5/reverseArray.js';
+import { extractNumFromString } from './question_50/extractNumFromString.js';
+import { checkPrimeNum } from './question_51/checkPrimeNum.js';
+import { findFactorial } from './question_52/findFactorial.js';
 import { sumNumInArray } from './question_6/sumNumInArray.js';
 import { findLargestNum } from './question_7/findLargestNum.js';
 import { findSmallestNum } from './question_8/findSmallestNum.js';
@@ -222,3 +229,31 @@ console.log(reverseString(str44));
 //Question45
 const str45 = "Hello World";
 console.log(countVowels(str45));
+
+//Question46
+const str46 = "madam";
+console.log(checkPalinrome(str46));
+
+//Question47
+const str47 = "My name is Unique";
+console.log(replaceSpaceWithDash(str47));
+
+//Question48
+const str48 = "my name is unique";
+console.log(capitalizeFirstLetter(str48));
+
+//Question49
+const str49 = "My number is 1234";
+console.log(removeNumFromString(str49));
+
+//Question50
+const str50 = "abc123def45";
+console.log(extractNumFromString(str50));
+
+//Question51
+const num51 = 7;
+console.log(checkPrimeNum(num51));
+
+//Question52
+const num52 = 5;
+console.log(findFactorial(num52)); 

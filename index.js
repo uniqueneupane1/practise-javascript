@@ -46,6 +46,13 @@ import { reverseArray } from './question_5/reverseArray.js';
 import { extractNumFromString } from './question_50/extractNumFromString.js';
 import { checkPrimeNum } from './question_51/checkPrimeNum.js';
 import { findFactorial } from './question_52/findFactorial.js';
+import { getUniqueElements } from './question_53/getUniqueElements.js';
+import { getReverseString } from './question_54/getReverseString.js';
+import { getAverage } from './question_55/getAverage.js';
+import { isLeapYear } from './question_56/isLeapYear.js';
+import { getIntersection } from './question_57/getintersection.js';
+import { getFormattedNum } from './question_58/getFormattedNum.js';
+import { isAllNum } from './question_59/IsAllNum.js';
 import { sumNumInArray } from './question_6/sumNumInArray.js';
 import { findLargestNum } from './question_7/findLargestNum.js';
 import { findSmallestNum } from './question_8/findSmallestNum.js';
@@ -54,7 +61,7 @@ import { findAverageNum } from './question_9/findAverageNum.js';
 
 // Question 1
 const fruits = ["apple", "banana", "apple", "orange", "banana"];
-removeDuplicates(fruits);
+console.log(removeDuplicates(fruits));
 
 //Question 2
 const arr1 = ["a", "b"];
@@ -256,4 +263,33 @@ console.log(checkPrimeNum(num51));
 
 //Question52
 const num52 = 5;
-console.log(findFactorial(num52)); 
+console.log(findFactorial(num52));
+
+//Question53
+const arr53 = [1, 2, 2, 3];
+console.log(getUniqueElements(arr53));
+
+//Question54
+const str54 = "I love coding";
+console.log(getReverseString(str54));
+
+//Question55
+const arr55 = [1, 2, 3, 4, 5];
+console.log(getAverage(arr55));
+
+//Question56
+const year = 2000;
+console.log(isLeapYear(year));
+
+//Question57
+const arr57 = [1, 2, 3];
+const arr58 = [2, 3, 4];
+console.log(getIntersection(arr57, arr58));
+
+//Question58
+const largeNum = 150000;
+console.log(getFormattedNum(largeNum));
+
+//Question59
+const arr59 = [1, 2, 3];
+console.log(isAllNum(arr59));

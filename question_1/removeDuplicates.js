@@ -6,6 +6,5 @@ export function removeDuplicates(fruits) {
             afterRemove.push(fruits[i]);
         }
     }
-
-    console.log(afterRemove);
+    return afterRemove;
 }
